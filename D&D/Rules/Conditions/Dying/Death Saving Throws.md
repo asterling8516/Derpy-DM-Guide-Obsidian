@@ -2,6 +2,8 @@
 tags:
   - conditions
   - dying
+aliases:
+  - death saving throw
 ---
 #### Death Saving Throws
 
