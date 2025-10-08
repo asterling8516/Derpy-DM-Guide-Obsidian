@@ -1,0 +1,1 @@
+The place that [[Lady Celeste]] calls home. 
