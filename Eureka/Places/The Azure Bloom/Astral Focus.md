@@ -1,3 +1,9 @@
+---
+tags:
+  - item
+  - fey
+  - thebloom
+---
 ## **Astral Focus: The Whispering Star-Gem**
 
 Celeste's ability to exist and interact with creatures on the Material Plane, and even across other planes, is facilitated by her **Astral Focus**, a powerful artifact known as **The Whispering Star-Gem**.

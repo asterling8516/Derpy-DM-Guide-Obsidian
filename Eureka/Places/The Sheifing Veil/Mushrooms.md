@@ -1,4 +1,11 @@
-Due to the strange nature of [[The Shifting Veil]] most vegetation cannot grow here. Though the [[Dustlings]] seem to have found a way to cultivate mushrooms that seem to have been affected by the Veil and have taken new forms. 
+---
+tags:
+  - item
+  - homebrew
+  - theveil
+  - liminal
+---
+Due to the strange nature of [[The Shifting Veil]] most vegetation cannot grow here. Though the [[Dustlings]] seem to have found a way to cultivate mushrooms that seem to have been affected by [[The Shifting Veil|the Veil]] and have taken new forms. 
 
 ## Glimmercaps
 Tiny mushrooms that have caps that glow with a very soft silvery light. When eaten a creature must succeed a **WIS saving throw** or take a -1 to all mental stats for the next hour. On a success the creature has a sense of clarity and gains advantage on saving throws against being confused for the next hour
@@ -18,4 +25,3 @@ These mushrooms appear to be made out of random patches of fabric stitched toget
 ## Unseen Umbrellas
 These are large flat topped mushrooms that are translucent making them hard to find in nature as they are easily overlooked. When eaten they are extremely filling and give you a strange sense of contentment.  The creature gains 5 temp hp, and have advantage on being charmed for the next hour. 
 
-#item #liminal #theveil 

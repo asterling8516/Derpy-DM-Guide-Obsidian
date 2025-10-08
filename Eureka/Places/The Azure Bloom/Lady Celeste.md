@@ -4,6 +4,8 @@ tags:
   - ruler
   - thebloom
   - fey
+aliases:
+  - Celeste
 ---
 ![[lady_celeste.png|00]]
 ### **Lady Celeste, AKA The Blue Fairy**

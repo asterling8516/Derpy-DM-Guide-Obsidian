@@ -1,5 +1,10 @@
+---
+tags:
+  - places
+---
 # Eureka
 A world filled with magics from the inner planes. Where fairytales come to life!
+![[Campgain Map.jpg]]
 
 ## Where did we come from?
 The story of Eureka begins as any good fairy tale does. Once upon a time long long ago in a land far far away, there was a Sorcerer who sought knowledge and the power to defeat his enemies. Well one day the sorcerer was given a book and upon reading it was overwhelmed with great power he cracked the barrier between the four planes. 

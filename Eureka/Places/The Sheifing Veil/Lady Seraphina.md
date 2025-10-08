@@ -4,6 +4,8 @@ tags:
   - theveil
   - people
   - ruler
+aliases:
+  - Seraphina
 ---
 ![[lady_seraphina.jpg]]
 

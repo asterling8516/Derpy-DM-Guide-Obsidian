@@ -1,3 +1,12 @@
+---
+aliases:
+  - The Veil
+tags:
+  - theveil
+  - places
+  - fey
+  - liminal
+---
 The Shifting Veil is the last destination of all forgotten things. That sock you lost, the sweater your grandma gave you but you secretly hated, those potion bottles from the healing potions you drank while fighting the dragon, that memory that sits on the tip of your tongue that you can't quite recall. The Shifting Veil lays claim to them all! 
 
 The landscape of The Shifting Veil is a curious tapestry woven from the detritus of lost thought and discarded reality. It feels strangely contained, almost like a vast, dust-filled attic. Mountains might rise as colossal, forgotten buttons, their smooth, cool surfaces reflecting the dim, hazy light. Valleys could be formed from the deep creases of a crumpled, unread letter, or the folds of a discarded map. Pathways might be paved with countless, identical bottle caps, or stretch across the flattened remains of a forgotten board game.
