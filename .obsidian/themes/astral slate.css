@@ -1,0 +1,257 @@
+/*
+ * Theme Name: Dungeon Scroll
+ * Description: An aged, parchment-style theme for an immersive D&D note-taking experience.
+ * This is a "Mixed" theme: Dark UI (wood/leather) with a Light Editor (parchment).
+ * Uses warm browns, sepia tones, and gold accents.
+ * Author: Gemini
+ */
+
+/* =======================================================
+   1. GLOBAL VARIABLES & COLOR PALETTE
+   ======================================================= */
+.theme-dark {
+    /* --- Custom Dungeon Scroll Palette (Paper, Ink, Wood/Leather) --- */
+    --ds-parchment-bg: #F8F4E8;        /* Light, aged paper background */
+    --ds-ink-dark: #382D2D;            /* Sepia/Brown text color */
+    --ds-bg-dark: #3F3229;             /* Dark Wood/Leather (Sidebars, overall dark base) */
+    --ds-bg-medium: #554336;           /* Panel/Header background */
+    --ds-accent-gold: #D4AF37;         /* Gold/Brass accent (Active, Headers) */
+    --ds-accent-red: #A3333D;          /* Deep Red (Links, warnings, bold emphasis) */
+    --ds-border: #8C6A5A;              /* Sepia Border color */
+    --ds-radius: 4px;                  /* Minimal rounding for an older feel */
+
+    /* --- Obsidian Core Variable Overrides (for Dark Mode UI) --- */
+    --background-primary: var(--ds-bg-dark); /* Sidebars, Vault/Settings */
+    --background-secondary: var(--ds-bg-medium); /* Headers/Code in sidebars, Command Palette */
+    --background-primary-alt: var(--ds-parchment-bg); /* CRITICAL: Main Editor Background (The Paper) */
+    --background-modifier-box-shadow: rgba(0, 0, 0, 0.4); /* Shadow for popups */
+    --background-modifier-border: var(--ds-border); /* Border for inputs/popups */
+
+    --text-normal: var(--ds-ink-dark); /* This is the main text color on the parchment */
+    --text-muted: #6A5B52;             /* Muted text for things like file names */
+    --text-on-accent: var(--ds-ink-dark); /* Text color when on the gold accent background */
+
+    --interactive-normal: var(--ds-bg-dark); /* Default button background (dark wood) */
+    --interactive-hover: var(--ds-bg-medium); /* Button hover */
+    --interactive-accent: var(--ds-accent-gold); /* Active state (selected file, active button) */
+    --interactive-accent-hover: #E3C564;
+
+    --link-color: var(--ds-accent-red);
+    --link-hover-color: #D44E57;
+
+    --h1-color: var(--ds-accent-gold);
+    --h2-color: var(--ds-ink-dark);
+    --h3-color: var(--ds-ink-dark);
+
+    --border-color: var(--ds-border);
+    --text-highlight-bg: #D4AF3740; /* Light gold highlight */
+    --radius-s: var(--ds-radius);
+    --input-fill: var(--ds-parchment-bg); /* Input fields should look like paper */
+    
+    /* ADDED: Modern text selection color */
+    --text-selection-bg: #D4AF3780; /* Gold selection background */
+
+    /* ADDED: Missing modern variables to prevent 'legacy' flag */
+    --background-tertiary: var(--ds-bg-medium); /* Modals, Popovers */
+    --background-modifier-error: var(--ds-accent-red); /* Error/Warning UI */
+    --background-modifier-success: #5CB85C; /* Success/Green UI */
+    --text-on-success: white;
+    --text-on-error: white;
+    --color-red: var(--ds-accent-red);
+    --color-green: #5CB85C;
+}
+
+/* Force dark text on the light background in the main editor */
+.theme-dark .view-content {
+    color: var(--ds-ink-dark) !important;
+}
+
+/* Added: Ensure text selection is visible on the light parchment background */
+.view-content ::selection {
+    background-color: var(--text-selection-bg);
+}
+
+/* =======================================================
+   2. WORKSPACE AND PANELS (Wood/Parchment Look)
+   ======================================================= */
+
+/* Apply dark wood/leather look to the side panels (File Explorer, etc.) */
+.side-dock.mod-left,
+.side-dock.mod-right {
+    background-color: var(--ds-bg-dark);
+}
+
+/* Apply box shadow and minimal rounding to all major panels/leaves */
+.workspace-leaf {
+    border-radius: var(--ds-radius);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border: 1px solid var(--ds-border);
+    transition: all 0.2s ease-in-out;
+}
+
+/* Main editor area background (The 'Paper' effect) */
+.workspace-leaf:not(.mod-active) .view-content,
+.workspace-leaf.mod-active .view-content {
+    background-color: var(--background-primary-alt); /* Parchment color */
+    /* Add a subtle paper texture/shadow effect */
+    box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.1);
+    /* Add some inner padding to simulate margin on paper */
+    padding: 20px;
+}
+
+/* Style the top header bar of each panel (Wood color) */
+.view-header {
+    background-color: var(--ds-bg-medium);
+    border-bottom: 1px solid var(--ds-border);
+    border-top-left-radius: var(--ds-radius);
+    border-top-right-radius: var(--ds-radius);
+}
+
+/* =======================================================
+   3. EDITOR, FONT, AND MARKDOWN STYLING
+   ======================================================= */
+
+/* Font Selection: Classic D&D/Parchment feel (Serif for readability) */
+body {
+    /* Base font for UI elements */
+    font-family: Georgia, serif;
+}
+
+.markdown-source-view,
+.markdown-preview-view {
+    /* Apply a good reading font for the main content (Palatino or Book Antiqua for manuscript feel) */
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, serif;
+    line-height: 1.6;
+}
+
+/* Strong and Emphasis (Added for better compliance and D&D feel) */
+.markdown-preview-view strong,
+.cm-s-obsidian .cm-strong {
+    color: var(--ds-accent-red); /* Deep red for important keywords/damage */
+    font-weight: 700;
+}
+
+.markdown-preview-view em,
+.cm-s-obsidian .cm-em {
+    color: var(--ds-ink-dark);
+    font-style: italic;
+    font-weight: 500;
+}
+
+/* Headings (Reading View) */
+.markdown-preview-view h1,
+.cm-header-1 {
+    font-family: Georgia, serif; /* Use a strong serif for titles */
+    font-size: 2.2em;
+    color: var(--ds-accent-gold);
+    border-bottom: 2px solid var(--ds-accent-gold);
+    padding-bottom: 0.3em;
+    margin-top: 1.5em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+.markdown-preview-view h2 {
+    font-size: 1.8em;
+    color: var(--ds-ink-dark);
+    border-bottom: 1px solid var(--ds-border);
+    padding-bottom: 0.3em;
+    margin-top: 1.2em;
+}
+
+/* Blockquotes (Looks like an official journal entry or lore box) */
+.markdown-rendered blockquote {
+    border: 1px solid var(--ds-accent-red);
+    border-left: 6px solid var(--ds-accent-red);
+    background-color: #F0E8D9; /* Slightly darker parchment for contrast */
+    color: var(--text-normal);
+    font-style: italic;
+    padding: 12px 18px;
+    border-radius: var(--ds-radius);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Code Blocks (Fenced code) - should look like a special inscription/box */
+.markdown-rendered pre code,
+.cm-editor .HyperMD-codeblock,
+.cm-editor .HyperMD-code-bg {
+    background-color: var(--ds-bg-medium); /* Dark background for code */
+    border: 1px solid var(--ds-border);
+    color: #EAEAEA; /* Light text for code on dark background */
+    border-radius: 4px;
+    padding: 10px;
+    font-family: monospace; /* Keep code monospace */
+}
+
+/* Task Checkboxes */
+.task-list-item-checkbox {
+    color: var(--ds-ink-dark);
+    border-color: var(--ds-ink-dark);
+}
+.task-list-item-checkbox:checked {
+    /* Style checked box with gold accent */
+    background-color: var(--ds-accent-gold);
+    border-color: var(--ds-accent-gold);
+}
+
+/* Added: Improved list spacing and bullet styling */
+.list-bullet,
+.list-collapse {
+    color: var(--ds-accent-red); /* Make the bullets/collapse icons stand out */
+}
+
+ul, ol {
+    padding-inline-start: 1.5em;
+}
+
+ul li, ol li {
+    margin-bottom: 0.25em;
+}
+
+/* =======================================================
+   4. INTERACTIVE AND NAVIGATION ELEMENTS
+   ======================================================= */
+
+/* File Explorer Items on hover/active */
+.nav-file-title.is-active,
+.nav-file-title:hover {
+    background-color: rgba(212, 175, 55, 0.2); /* Gold translucent hover */
+    border-radius: 4px;
+    color: var(--ds-accent-gold);
+}
+
+/* Ribbon (Sidebar icons) */
+.side-dock-ribbon-action {
+    border-radius: 50%;
+    transition: color 0.2s, background-color 0.2s, box-shadow 0.2s;
+    opacity: 0.9;
+}
+.side-dock-ribbon-action:hover {
+    color: var(--ds-accent-gold);
+    background-color: var(--ds-bg-medium);
+    opacity: 1;
+}
+.side-dock-ribbon-action.is-active {
+    color: var(--ds-accent-gold);
+    background-color: var(--ds-bg-medium);
+    box-shadow: 0 0 8px rgba(212, 175, 55, 0.6); /* Gold glow */
+    opacity: 1;
+}
+
+/* Status Bar */
+.status-bar {
+    background-color: var(--ds-bg-medium);
+    border-top: 1px solid var(--ds-border);
+    color: var(--ds-text-muted);
+}
+
+/* =======================================================
+   5. FOCUS MODE (Active Pane)
+   ======================================================= */
+/* Focus on the active line in the editor */
+.cm-editor .cm-activeLine {
+    background-color: rgba(212, 175, 55, 0.1); /* Subtle gold focus line */
+}
+
+/* Focus on the active file/note (subtle gold border glow) */
+.workspace-leaf.mod-active {
+    box-shadow: 0 0 10px var(--ds-accent-gold);
+}
