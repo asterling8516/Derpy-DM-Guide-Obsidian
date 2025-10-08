@@ -1,5 +1,5 @@
 
-# ♜ Sleepy
+# ♜ [[Sleepy]]
 
 > [!abstract] **Character Concept**
 > *A sneaky boy who constantly finds himself sleeping anywhere that's comfortable*

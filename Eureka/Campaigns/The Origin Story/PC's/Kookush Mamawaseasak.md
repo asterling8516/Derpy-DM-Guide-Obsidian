@@ -1,0 +1,6 @@
+---
+aliases:
+  - Kookush
+tags:
+  - PC
+---
