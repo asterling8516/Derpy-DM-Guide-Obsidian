@@ -1,0 +1,20 @@
+# ----------------------------------------------------
+# OBSIDIAN IGNORING: Ignore only the high-risk/high-conflict files
+# ----------------------------------------------------
+
+# 1. Workspace: Files that cause conflicts and show your open notes/layout
+.obsidian/workspace.json
+.obsidian/workspaces.json
+.obsidian/workspaces/
+
+# 2. Plugins: The high-risk folder where API keys and tokens are stored
+.obsidian/plugins/
+
+# 3. Cache/Metadata: Other files that frequently change or are system-specific
+.obsidian/cache/
+.obsidian/app.json
+.obsidian/publish.json
+
+# --- General System Files (Good Practice) ---
+.DS_Store
+.trash/
