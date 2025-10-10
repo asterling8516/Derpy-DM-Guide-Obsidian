@@ -1,3 +1,7 @@
+---
+tags:
+  - TWBTWL
+---
 |    Who    |            What             |                   Curse                   |
 | :-------: | :-------------------------: | :---------------------------------------: |
 |  Beeotch  |      Sense of fashion       |  Unable to tie or until non magical rope  |
