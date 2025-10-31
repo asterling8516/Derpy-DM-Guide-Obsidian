@@ -12,4 +12,4 @@ Celeste's ability to exist and interact with creatures on the Material Plane, an
 
 - **Function:** The Star-Gem acts as an anchor, allowing Celeste's ethereal Fey form to coalesce and maintain stability in denser planes like the Material Plane. It channels and amplifies her connection to wishes and life-giving magic, making her interventions possible. Without it, her presence on such planes would be fleeting, translucent, and unable to interact physically.
 
-- **Significance:** It is a direct conduit to her power and her very essence. If it were lost or damaged, her ability to manifest outside the Fey Wilds would be severely hampered, and she might even begin to fade from the collective memory of those who rely on her.
+- **Significance:** It is a direct conduit to her power and her very essence. If it were lost or damaged, her ability to manifest outside [[The Azure Bloom]] would be impossible. 
