@@ -1,3 +1,8 @@
+---
+tags:
+  - homebrew
+  - places
+---
 | **ID** | **Mundane Appearance**                          |
 | ------ | ----------------------------------------------- |
 | 1      | Old Tin Whistle                                 |

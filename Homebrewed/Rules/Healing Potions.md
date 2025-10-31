@@ -1,6 +1,7 @@
 ---
 tags:
   - homebrew
+  - rules
 ---
 You may drink a healing potion for a bonus action allowing you to get the maximum amount of hp back
 

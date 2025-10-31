@@ -1,6 +1,7 @@
 ---
 tags:
   - homebrew
+  - rules
 ---
 # Shopping
 Introducing some new rules from [Kobold Press]([https://koboldpress.com/kpstore?raf=ref4237525](https://koboldpress.com/kpstore?raf=ref4237525))'s  Wander's Guide to Merchants and Magic and slighting changing them to fit my players and campaigns. We will use some new rules for shopping to hopefully make shopping more fun and providing more RP opportunities. 
