@@ -30,5 +30,7 @@ There are a few things that will impact the starting cost such as
 - Class. An alchemist may set the price a bit lower for a fellow alchemist.
 - Reputation. Are you a renowned adventurer? Do you come back to the same merchant often? Have you helped the merchant out before?
 - Manners. Having a silver tongue when talking to someone you want to buy something from may not be a bad thing
+# Selling
+These rules work in reverse when selling an item.
 
 **THESE RULES DO NOT APPLY TO THE SHOP OF MANY THINGS**
