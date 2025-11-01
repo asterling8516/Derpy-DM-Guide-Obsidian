@@ -23,6 +23,29 @@ You can take your time enchanting an item giving a bonus to the crafting of the 
 
 You can upgrade an enchantment later. Like with the Armor Bonus say you get a piece of armor with a +1 you can later upgrade that to a +2 then later again to a +3
 
+# Magic Item Levels
+Each enchantment adds to the items magic level thus making it harder to craft, requiring more components, spells, and time. 
+
+
+| Magic Level | Item Value in GP | Magic Level | Item Value in GP |
+| :---------: | :--------------: | :---------: | :--------------: |
+|      1      |       200        |     16      |      16,000      |
+|      2      |       500        |     17      |      18,000      |
+|      3      |      1,000       |     18      |      20,000      |
+|      4      |      1,500       |     19      |      22,500      |
+|      5      |      2,000       |     20      |      25,000      |
+|      6      |      3,000       |     21      |      27,500      |
+|      7      |      4,000       |     22      |      30,000      |
+|      8      |      5,000       |     23      |      32,500      |
+|      9      |      6,000       |     24      |      35,000      |
+|     10      |      7,000       |     25      |      37,500      |
+|     11      |      8,000       |     26      |      40,000      |
+|     12      |      9,000       |     27      |      42,500      |
+|     13      |      10,000      |     28      |      45,000      |
+|     14      |      12,000      |     29      |      47,500      |
+|     15      |      14,000      |     30      |      50,000      |
+
+
 # Magical Properties
 Magic Properties are effects that can be enchanted to provide the suer with bonuses: +1 to AC, bonus damage, Darkvision, etc. The more properties added the harder it will be to enchant. The "better" the property will also add to its difficulty example: enchanting an item with an Ability Bonus will be harder and cost more than add say Climbing to the same item.
 
@@ -34,54 +57,53 @@ M - Spellcasting properties
 W - Weapon properties. Can only be enchanted on weapons
 S - Saving throw properties. Require the wearer or another creature to make a saving throw
 
-| Name                        | Description                                                                            |
-| --------------------------- | -------------------------------------------------------------------------------------- |
-| Ability Bonus (A)(R)        | One of your ability scores increases by 2.                                             |
-| Adamantine (A)              | Any critical hit against you becomes a normal hit.                                     |
-| Armor Bonus (A)             | You gain a +1 , +2 , or +3 bonus to AC.                                                |
-| Blindsight (A)              | You have Blindsight out to a range of 10 or 30 feet .                                  |
-| Cantrip (A)(M)(R)           | You can cast a specific cantrip at will.                                               |
-| Climbing (A)                | You have a Climb speed equal to your walking speed.                                    |
-| Condition Resistance (A)(R) | You have advantage on ability checks and saving throws against one condition.          |
-| Damage Resistance (A)(R)    | You have resistance to a specific type of damage.                                      |
-| Darkvision (A)              | You have Darkvision out to a range of 60 or 120 feet .                                 |
-| Durable (A)                 | You have advantage on Death saving throws.                                             |
-| Elusive (A)                 | Opportunity attacks against you are made with disadvantage.                            |
-| Feather                     | The item’s weight and any Strength requirements it has are halved.                     |
-| Flying (A)                  | You have a Fly speed of 30 or 60 feet .                                                |
-| Foe Resistance (A)(R)       | You have advantage on saving throws against a specific type of creature.               |
-| Freedom (A)                 | You ignore difficult terrain.                                                          |
-| Hidden (A)                  | You can’t be found by divination magic and magical sensors can’t see you.              |
-| Immutable (A)               | You are immune to spells and effects that alter your form against your will.           |
-| Luck (A)                    | You can reroll a failed attack roll, ability check, or saving throw once per day.      |
-| Magic Resistance (A)        | You have advantage against spells and magical effects .                                |
-| Magus (A)                   | You gain temporary hit points equal to the spell’s level when you cast a spell.        |
-| Save Advantage (A)(R)       | You have advantage on saving throws using a specific ability.                          |
-| Save Bonus (A)              | You gain a +1, +2, or +3 bonus to all saving throws.                                   |
-| School Resistance (A)(R)    | You have advantage on d20 rolls against spells of a specific school of magic.          |
-| Sentinel (A)                | You can’t be surprised while you’re conscious.                                         |
-| Skill Advantage (A)(R)      | You have advantage on ability checks using one specific skill.                         |
-| Skill Proficiency (A)(R)    | You gain proficiency in a specific skill or expertise in a skill you’re proficient in. |
-| Speed (A)                   | Your walking speed increases by 5 or 10 feet.                                          |
-| Spell Bonus (A)             | You gain a +1, +2, or +3 bonus to spell attacks and DCs.                               |
-| Spellcasting (A)(M)         | You can use charges to cast spells of 1st level or higher.                             |
-| Swimming (A)                | You have a Swim speed of 30 or 60 feet.                                                |
-| Telepathy (A)               | You can communicate telepathically with creatures within 30 feet of you.               |
-| Transformation (A)          | You can transform into a CR 1/8, 3, or 7 creature.                                     |
-| Tremorsense (A)             | You have Tremorsense out to a range of 30 or 60 feet.                                  |
-| Truesight (A)               | You have Truesight out to a range of 10 or 30 feet.                                    |
-| Veil (A)                    | You are immune to mind reading magic and telepathy.                                    |
-| Vigilance (A)               | You have advantage on Initiative rolls.                                                |
-| Weapon Bonus (W)            | You gain a +1, +2, or +3 bonus to attack and damage rolls.                             |
-| Weapon Damage (W)(R)        | A target you hit takes extra damage of a specific type.                                |
-| Weapon Effect (W)(S)        | A creature you hit must succeed on a saving throw or suffer an effect for 1 round.     |
-| Weapon, Baneful (W)         | A creature you hit can’t regain hit points for 1 round.                                |
-| Weapon, Bonded (W)          | The weapon can be thrown and returns immediately after each ranged attack.             |
-| Weapon, Disrupting (W)(S)   | A creature you hit must succeed on a CON save to cast spells for 1 round.              |
-| Weapon, Eldritch (W)        | When you cast spells, your attacks deal extra Force damage for 1 round.                |
-| Weapon, Guiding (W)         | When you hit a creature, the next attack roll made against it has advantage.           |
-| Weapon, Keen (W)            | Your attacks score a critical hit on a roll of 19 or 20 or 18–20.                      |
-| Weapon, Mocking (W)         | A creature you hit has disadvantage on its next attack roll.                           |
+|            Name             |                                        Description                                        | Magic Item Level |
+| :-------------------------: | :---------------------------------------------------------------------------------------: | :--------------: |
+|    Ability Bonus (A)(R)     |                        One of your ability scores increases by 2.                         |        5         |
+|       Adamantine (A)        |                    Any critical hit against you becomes a normal hit.                     |        3         |
+|       Armor Bonus (A)       |           You gain a +1 (level 3), +2 (level 11), or +3 (level 18) bonus to AC.           |        3+        |
+|       Blindsight (A)        |         You have Blindsight out to a range of 10 (level 4) or 30 feet (level 8).          |        4+        |
+|      Cantrip (A)(M)(R)      |                         You can cast a specific cantrip at will.                          |        2         |
+|        Climbing (A)         |                    You have a Climb speed equal to your walking speed.                    |        1         |
+| Condition Resistance (A)(R) |       You have advantage on ability checks and saving throws against one condition.       |        3         |
+|  Damage Resistance (A)(R)   |                     You have resistance to a specific type of damage.                     |        3         |
+|       Darkvision (A)        |         You have Darkvision out to a range of 60 (level 2) or 120 feet (level 5).         |        2+        |
+|         Durable (A)         |                        You have advantage on Death saving throws.                         |        1         |
+|         Elusive (A)         |                Opportunity attacks against you are made with disadvantage.                |        2         |
+|           Feather           |            The item’s weight and any Strength requirements it has are halved.             |        1         |
+|    Foe Resistance (A)(R)    |         You have advantage on saving throws against a specific type of creature.          |        3         |
+|         Freedom (A)         |                               You ignore difficult terrain.                               |        2         |
+|         Hidden (A)          |         You can’t be found by divination magic and magical sensors can’t see you.         |        1         |
+|        Immutable (A)        |       You are immune to spells and effects that alter your form against your will.        |        2         |
+|          Luck (A)           |     You can reroll a failed attack roll, ability check, or saving throw once per day.     |        2         |
+|    Magic Resistance (A)     |        You have advantage against spells (level 8) and magical effects (level 11).        |        8+        |
+|          Magus (A)          |      You gain temporary hit points equal to the spell’s level when you cast a spell.      |        2         |
+|    Save Advantage (A)(R)    |               You have advantage on saving throws using a specific ability.               |        5         |
+|       Save Bonus (A)        |   You gain a +1 (level 3), +2 (level 11), or +3 (level 18) bonus to all saving throws.    |        3+        |
+|  School Resistance (A)(R)   |       You have advantage on d20 rolls against spells of a specific school of magic.       |        2         |
+|        Sentinel (A)         |                      You can’t be surprised while you’re conscious.                       |        3         |
+|   Skill Advantage (A)(R)    |              You have advantage on ability checks using one specific skill.               |        2         |
+|  Skill Proficiency (A)(R)   |  You gain proficiency in a specific skill or expertise in a skill you’re proficient in.   |        2         |
+|          Speed (A)          |             Your walking speed increases by 5 (level 1) or 10 feet (level 3).             |        1+        |
+|       Spell Bonus (A)       |   You gain a +1 (level 3), +2 (level 11), or +3 (level 18) bonus to all saving throws.    |        3+        |
+|     Spellcasting (A)(M)     |                You can use charges to cast spells of 1st level or higher.                 |        2+        |
+|        Swimming (A)         |                You have a Swim speed of 30 (level 1) or 60 feet (level 3).                |        1+        |
+|        Telepathy (A)        |         You can communicate telepathically with creatures within 30 feet of you.          |        2         |
+|     Transformation (A)      |     You can transform into a CR 1/8 (level 3), 3 (level 6), or 7 (level 12) creature.     |        3+        |
+|       Tremorsense (A)       |         You have Tremorsense out to a range of 30 (level 6) or 60 feet (level 8).         |        6+        |
+|        Truesight (A)        |         You have Truesight out to a range of 10 (level 8) or 30 feet (level 12).          |        8+        |
+|          Veil (A)           |                    You are immune to mind reading magic and telepathy.                    |        1         |
+|        Vigilance (A)        |                          You have advantage on Initiative rolls.                          |        3         |
+|      Weapon Bonus (W)       | You gain a +1 (level 2), +2 (level 8), or +3 (level 16) bonus to attack and damage rolls. |        2+        |
+|    Weapon Damage (W)(R)     |                  A target you hit takes extra damage of a specific type.                  |        2+        |
+|    Weapon Effect (W)(S)     |    A creature you hit must succeed on a saving throw or suffer an effect for 1 round.     |        2+        |
+|     Weapon, Baneful (W)     |                  A creature you hit can’t regain hit points for 1 round.                  |        3         |
+|     Weapon, Bonded (W)      |        The weapon can be thrown and returns immediately after each ranged attack.         |        1         |
+|  Weapon, Disrupting (W)(S)  |         A creature you hit must succeed on a CON save to cast spells for 1 round.         |        3         |
+|    Weapon, Eldritch (W)     |          When you cast spells, your attacks deal extra Force damage for 1 round.          |        1         |
+|     Weapon, Guiding (W)     |       When you hit a creature, the next attack roll made against it has advantage.        |        2         |
+|      Weapon, Keen (W)       |   Your attacks score a critical hit on a roll of 19 or 20 (level 1) or 18–20 (level 5).   |        1+        |
+|     Weapon, Mocking (W)     |               A creature you hit has disadvantage on its next attack roll.                |        2         |
 # Minor Magic Properties
 Enchanting an item with a minor property is easy....ier. Typically they will take an hour and cost 50GP. Other minor magic properties can effect the cost. 
 
