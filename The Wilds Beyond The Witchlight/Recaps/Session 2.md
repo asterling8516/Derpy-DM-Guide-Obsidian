@@ -24,3 +24,12 @@ Raven and JaqueLin headed over to Silver Song Lake and watched a mermaid perform
 - The Two of them were dating
 - Though they new people have disappeared they weren't sure the cause, but thought that it might benefit you to ask Mr. Witch and Mr. Light about it
 - They didn't know how the magic mirror worked
+
+Everyone except for Vania headed to carousel and tried speaking with Diana Cloppington. When you told her that you were looking into the disappearances and the person causing issues at the carnival she told you to wait and she would close the carousel and the unicorns could help. After you solved the puzzle of their names you learned:
+
+- Who has stolen your things
+- Mr. Witch and Mr. Light can help you get to the people who stole them
+
+Vania went to the staff area overheard a conversation between Mr. Witch and Mr. Light
+
+And that is where we are now.
