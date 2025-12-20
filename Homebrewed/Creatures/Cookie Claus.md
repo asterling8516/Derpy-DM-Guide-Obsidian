@@ -4,13 +4,13 @@ _(A large, slightly clumsy construct built from enchanted gingerbread, fortified
 
 ---
 
-|**Category**|**Value**|
-|---|---|
-|**Armor Class**|14 (Natural Armor)|
-|**Hit Points**|80 (10d10 + 20)|
-|**Speed**|30 ft.|
-|**Challenge Rating**|3 (700 XP)|
-|**Alignment**|Neutral Good|
+| **Category**         | **Value**          |
+| -------------------- | ------------------ |
+| **Armor Class**      | 16 (Natural Armor) |
+| **Hit Points**       | 80 (10d10 + 20)    |
+| **Speed**            | 30 ft.             |
+| **Challenge Rating** | 3 (700 XP)         |
+| **Alignment**        | Neutral Good       |
 
 ---
 
