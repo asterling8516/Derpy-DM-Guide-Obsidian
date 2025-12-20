@@ -32,6 +32,7 @@ Languages: Understands Common but cannot speak.
 
 ### **Abilities**
 
+Can Attack Twice
 **Dough Heart:** Cookie-Claus is controlled mentally by the party (one chosen player acts as its dedicated controller, taking its turn after theirs). If it drops to 0 HP, it crumbles, and the resurrection ritual fails.
 
 **Slippery Frosting:** Cookie-Claus has advantage on saving throws against being grappled or restrained.
