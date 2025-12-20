@@ -44,3 +44,5 @@ Gingerbread Smash (Melee Weapon Attack): +6 to hit, reach 5 ft., one target.
 Hit: 1d8 + 4 bludgeoning damage.
 
 **Milk & Cookies (Bonus Action/Support):** Cookie-Claus can use a bonus action to spend one of its charges of **Holiday Cheer** to toss a magically fortified cookie to a visible ally within 30 feet. The ally regains **2d4 + 2 HP**. 
+
+Cookie-Claus starts the fight with **8 charges of Holiday Cheer**, and the healing dice for **Milk & Cookies** increases to **2d6 + 2 HP**.
